@@ -1,23 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
-          rel="stylesheet">
-  </head>
-  <body>
-    <div class="container">
-      <div class="header">
-        <h3 class="text-muted">How To Upload a File</h3>
-      </div>
-      <hr/>
-      <div>
-      
-      <form action="upload" method="post" enctype="multipart/form-data">
-        <input type="file" name="file"><br /><br />
-        <input type="submit" value="Upload">
+<html>
+   <body>
+   
+      <form action = "http://localhost:5000/result" method = "POST">
+         <p>Piggy <input type = "text" name = "Piggy" /></p>
+         <p>Clouds <input type = "text" name = "Clouds" /></p>
+         <p>BlueSky <input type = "text" name = "BlueSky" /></p>
+         <p><input type = "submit" value = "submit" /></p>
       </form>
-      </div>
-    </div>
-  </body>
+      
+   </body>
 </html>
- 
